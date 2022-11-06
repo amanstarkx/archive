@@ -1,1 +1,1066 @@
-theme: jekyll-theme-cayman
+
+<!DOCTYPE html>
+<html dir='ltr' lang='en'>
+
+
+<head>
+
+<title>STW - Tech & Blogger tutorials</title>
+
+<meta charset='UTF-8' />
+<meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport' />
+<meta content='IE=edge' http-equiv='X-UA-Compatible' />
+<meta content='max-image-preview:large' name='robots' />
+
+<link href='https://www.shivatechnicworld.eu.org/' rel='canonical' />
+
+
+<meta content='The best place that you provide ADB tutorials, Blogger tutorials, Windows and Linux tutorials!' name='description' />
+<meta content='STW, , Tech, Codes, Blogger, ADB, Tutorials, English ' name='keywords' />
+
+<meta content='blogger' name='generator' />
+<link href='https://www.shivatechnicworld.eu.org/feeds/posts/default' rel='alternate' title='STW - Atom' type='application/atom+xml' />
+<link href='https://www.shivatechnicworld.eu.org/feeds/posts/default?alt=rss' rel='alternate' title='STW - Feed' type='application/rss+xml' />
+<link href='https://www.shivatechnicworld.eu.org/feeds/comments/default?alt=rss' rel='alternate' title='STW - Comments Feed' type='application/rss+xml' />
+
+<meta content='transparent' name='theme-color' />
+<meta content='transparent' name='msapplication-navbutton-color' />
+<meta content='transparent' name='apple-mobile-web-app-status-bar-style' />
+<meta content='true' name='apple-mobile-web-app-capable' />
+
+<link href='https://www.shivatechnicworld.eu.org/favicon.ico' rel='apple-touch-icon' sizes='120x120' />
+<link href='https://www.shivatechnicworld.eu.org/favicon.ico' rel='apple-touch-icon' sizes='152x152' />
+<link href='https://www.shivatechnicworld.eu.org/favicon.ico' rel='icon' type='image/x-icon' />
+<link href='https://www.shivatechnicworld.eu.org/favicon.ico' rel='shortcut icon' type='image/x-icon' />
+
+<meta content='STW' property='og:title' />
+<meta content='https://www.shivatechnicworld.eu.org/' property='og:url' />
+<meta content='STW' property='og:site_name' />
+<meta content='website' property='og:type' />
+<meta content='The best place that you provide ADB tutorials, Blogger tutorials, Windows and Linux tutorials!' property='og:description' />
+<meta content='STW' property='og:image:alt' />
+<meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2MLHqXHPX8f9xwuTLSOEK0xwlCIJPPNV2reut5vWRSgX1YvpJn0tcy6hL-W0xbUL3velLqNFqzGV0OKlQtmbIHid_ddOyBXRDgUqHd0huNZ8TpIxdjYj7nXTrszflxIh3RZkt9ELbabK0fBmmGBErM3B4IEO1doa659cvfpoqG-N7bBWxv9-jc0k1/s512/shiva-technic-world.png' property='og:image' />
+
+<meta content='STW' name='twitter:title' />
+<meta content='https://www.shivatechnicworld.eu.org/' name='twitter:url' />
+<meta content='The best place that you provide ADB tutorials, Blogger tutorials, Windows and Linux tutorials!' name='twitter:description' />
+<meta content='summary_large_image' name='twitter:card' />
+<meta content='STW' name='twitter:image:alt' />
+<meta content='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2MLHqXHPX8f9xwuTLSOEK0xwlCIJPPNV2reut5vWRSgX1YvpJn0tcy6hL-W0xbUL3velLqNFqzGV0OKlQtmbIHid_ddOyBXRDgUqHd0huNZ8TpIxdjYj7nXTrszflxIh3RZkt9ELbabK0fBmmGBErM3B4IEO1doa659cvfpoqG-N7bBWxv9-jc0k1/s512/shiva-technic-world.png' name='twitter:image:src' />
+
+<meta content='' name='msvalidate.01' />
+
+<style><!-- /* <style id='page-skin-1' type='text/css'><!--
+/* Variable color */
+:root{
+--headC: #08102b ;
+--bodyC: #08102b ;
+--bodyCa: #767676 ;
+--bodyB: #ffffff ;
+--linkC: #3367D6 ;
+--linkB: #3367D6 ;
+--iconC: #08102b ;
+--iconCa: #08102b ;
+--iconCs: #767676 ;
+--headerC: #08102b ;
+--headerT: 16px ;
+--headerW: 400 ; /* write 400(normal) or 700(bold) */
+--headerB: #ffffff ;
+--headerL: 1px ;
+--headerI: #08102b ;
+--headerH: 72px ;
+--headerHm: 60px ;
+--notifH: 60px ;
+--notifU: #e8f0fe ;
+--notifC: #3c4043 ;
+--notifL: #6200ee ;
+--contentB: #ffffff ;
+--contentL: #e6e6e6 ;
+--contentW: 1272px ;
+--sideW: 300px ;
+--transB: rgba(0,0,0,.05);
+--pageW: 780px ;
+--postW: 779px ;
+--postT: 36px ;
+--postTm: 28px ;
+--postF: 16px ;
+--postFm: 15px ;
+--widgetT: 15px ;
+--widgetTw: 400 ; /* write 400(normal) or 700(bold) */
+--widgetTa: 25px ;
+--widgetTac: #989b9f;
+--navH: 48px ;
+--navT: #000000 ;
+--navI: #000000 ;
+--navB: #ffffff ;
+--srchL: 1px ;
+--srchLc: #e6e6e6 ;
+--srchI: #08102b ;
+--srchB: #fffdfc ;
+--fotT: #48525c ;
+--fotB: #fffdfc ;
+--fotL: 1px ;
+--fontH: 'Poppins', sans-serif ;
+--fontB: 'Poppins', sans-serif ;
+--fontBa:'Poppins', sans-serif;
+--fontC:'Fira Mono', monospace ;
+--trans-1: all .1s ease ;
+--trans-2: all .2s ease ;
+--trans-4: all .4s ease ;
+--synxBg: #f6f6f6 ;
+--synxC: #2f3337 ;
+--synxOrange: #b75501 ;
+--synxBlue: #015692 ;
+--synxGreen: #54790d ;
+--synxRed: #f15a5a ;
+--synxGray: #656e77 ;
+--darkT: #fffdfc ;
+--darkTa: #989b9f ;
+--darkU: #8775f5 ;
+--darkB: #1e1e1e ;
+--darkBa: #2d2d30 ;
+--darkBs: #252526 ;
+}
+
+--></style>
+<style>/*<![CDATA[*/ /* Dark Mode */ .drK .tDL .d2{display:block} .drK .tDL svg .f{stroke:none;fill:var(--darkT)} .drK .pThmb:not(.nul)::before{background-image:linear-gradient(90deg, rgba(0,0,0,0) 0, rgba(0,0,0,.07) 20%, rgba(0,0,0,.1) 60%, rgba(0,0,0,0))} .drK footer{background:transparent} .drK input::placeholder, .drK .cpL input, .drK .cArea label .n{color:rgba(255,255,255,.25)} .drK .nArea .contact-form-error-message-with-border{color:#f94f4f} .drK .cmC i[rel=image]::before, .drK .widget input[type=text], .drK .widget input[type=email], .drK .widget textarea{background:var(--darkBs);border-color:rgba(255,255,255,.15)} .drK .erroC h3 span.e{color:var(--darkBa)} .drK svg, .drK svg.c-1{fill:var(--darkT)} .drK svg.line{fill:none;stroke:var(--darkT)} .drK svg.c-2{fill:var(--darkTalt); opacity:.4} .drK, .drK .headCn, .drK .navbar{background:var(--darkB);color:var(--darkT)} .drK .ntfC{background:var(--darkBa);color:var(--darkTa)} .drK header, .drK .tbHd, .drK .pRelate, .drK blockquote, .drK blockquote.s-1, .drK .cmC i[rel=quote], .drK details.sp, .drK .ps table:not(.tr-caption-container), .drK .ps table th, .drK .ps table:not(.tr-caption-container) tr:not(:last-child) td, .drK .pre.tb .preH, .drK details.ac, .drK .ancrA, .drK .ancrC, .drK .pSh, .drK .cmBd.del .cmCo, .drK .cmHl li li .cmIn::before, .drK .cpLb, .drK .tpMn li.br::after, .drK .cmHl >li:not(:last-child){border-color:rgba(255,255,255,.15)} .drK .pre{background:var(--darkBs);color:var(--darkTa)} .drK .cmC i[rel=pre]{background:var(--darkB);color:var(--darkTa)} .drK .tIc::after, .drK .shL a, .drK .cpLb{background:rgba(0,0,0,.15)} .drK h1, .drK h2, .drK h3, .drK h4, .drK h5, .drK h6, .drK footer, .drK .button{color:var(--darkT)} .drK .admPs{border-color:transparent} .drK .admPs, .drK .dlBox, .drK .fixLs, .drK .cArea input:focus ~ .n, .drK .cArea textarea:focus ~ .n, .drK .cArea input[data-text=fl] ~ .n, .drK .cArea textarea[data-text=fl] ~ .n, .drK .wL.bg li >*, .drK .BlogSearch input{background:transparent} .drK .ancrA{background:var(--darkBa)} .drK .button.ln{background:transparent} .drK::selection, .drK a, .drK .free::after, .drK .new::after, .drK .aTtl a:hover, .drK details.ac[open] summary, .drK .cpL label, .drK .wL li >*:hover .lbC, .drK .wL li >div .lbC, .drK .wL .lbM, .drK .cmBtn.ln:hover, .drK .wL.cl .lbN:hover .lbC, .drK .wL.cl div.lbN .lbC, .drK .tpMn .a:hover, .drK .tpMn ul li a:hover{color:var(--darkU)} .drK .wL li >*:hover svg, .drK .wL li >div svg{stroke:var(--darkU)} .drK .blogPg >*, .drK .button, .drK .zmImg::after, .drK .widget input[type=button], .drK .widget input[type=submit]{background:var(--darkU)} .drK .pS input[id*="1"]:checked ~ .tbHd label[for*="1"], .drK .pS input[id*="2"]:checked ~ .tbHd label[for*="2"], .drK .pS input[id*="3"]:checked ~ .tbHd label[for*="3"], .drK .pS input[id*="4"]:checked ~ .tbHd label[for*="4"], .drK .widget input[type=text]:focus, .drK .widget input[type=email]:focus, .drK .widget textarea:focus, .drK .widget input[data-text=fl], .drK .widget textarea[data-text=fl], .drK .wL.cl .lbN:not(div):hover, .drK .wL.cl div.lbN{border-color:var(--darkU)} .drK .button.ln:hover{border-color:var(--darkU);box-shadow:0 0 0 1px var(--darkU) inset} .drK header a, .drK .pLbls >*, .drK .aTtl a, .drK .blogPg >*, .drK .brdCmb a, .drK .wL li >*, .drK .cmAc a, .drK .pShc >*, .drK .topM a, .drK footer a{color:inherit} .drK .blogPg .nPst, .drK .blogPg .current{background:var(--contentL);color:var(--bodyCa)} @media screen and (max-width:1100px){.drK .tpBr{background:var(--darkBs)} .drK .tpC label{background:var(--darkBa)} .drK .tpC svg.rad{fill:var(--darkBa)} .drK .topI:checked ~ .topM .tpC label{background:var(--darkU)}} @media screen and (min-width:897px){.drK .mnMn .a:hover{color:var(--darkU)} .drK .mnMn .a::after{border-color:var(--darkU)} .drK .mnMn ul{background:var(--darkBs)} .drK .mnMn ul li >*:hover{background:rgba(0,0,0,.15)}} @media screen and (min-width:641px){.drK .ftMn a:hover{color:var(--darkU)}} @media screen and (max-width:640px){.drK .ftMn{background:var(--darkBa)}} @media screen and (max-width:896px){.drK .mnBrs{background:var(--darkBs)} .drK .mnMn li:not(.drp) .a:hover, .drK .mnMn ul li a:hover, .drK .mnMn li:not(.mr) .drpI:checked ~ .a{color:var(--darkU)} .drK .mnMn .a:hover svg:not(.d){fill:var(--darkU)} .drK .mnMn .a:hover svg.line:not(.d){fill:none;stroke:var(--darkU)} .drK .mnMn li:not(.mr) .a::before, .drK .mnMn .drp.mr li >*::before{border-color:var(--darkU)} .drK .mnMn >li.br::after, .drK .mnMn li:not(.mr) ul::before, .drK .mnMn li:not(.mr) li::before{border-color:rgba(255,255,255,.15)}} @media screen and (max-width:500px){.drK .itemFt .itm .iCtnt{border-color:rgba(255,255,255,.15)}} /*]]>*/</style>
+<script type="c365b7e1d647c28a887a5d32-text/javascript">/*<![CDATA[*/ /*!@shinsenter/defer.js@3.1.0*/
+!(function(t){var n,u="Defer",i=t.document,o=t.setTimeout,f=t.IntersectionObserver,r=/p/.test(i.readyState),c=[],s=[],a=c.slice,d="load",e="pageshow",l="on"+e in t?e:d,m=["mousemove","keydown","touchstart","wheel"],h="forEach",v="setAttribute",y="shift";function p(e,t,n){r?o(e,t):(void 0===n&&p.lazy||n?s:c).push(e,t)}function g(e){i.head.appendChild(e)}function b(e,t){a.call(e.attributes)[h](t)}function E(e,t,n,o){return o=(t?i.getElementById(t):o)||i.createElement(e),n&&(o.onload=n),t&&(o.id=t),o}function I(e,t){return a.call((t||i).querySelectorAll(e))}function w(n,e){I("source,img",n)[h](w),b(n,function(e,t){(t=/^data-(.+)/.exec(e.name))&&n[v](t[1],e.value)}),"string"==typeof e&&(n.className+=" "+e),d in n&&n[d]()}function N(e,t,n){p(function(o){o=I(e||"[type=deferjs]"),(function e(t,n){(t=o[y]())&&(t.parentNode.removeChild(t),n=E(t.nodeName),b(t,function(e){"type"!=e.name&&n[v](e.name,e.value)}),n.text=t.text,n.src&&!n.getAttribute("async")?(n.onload=n.onerror=e,g(n)):(g(n),e()))})()},t,n)}function j(e){t.addEventListener(e,n)}function x(e){t.removeEventListener(e,n)}p.all=N,p.dom=function(e,t,i,r,c){p(function(n){function o(e){r&&!1===r(e)||w(e,i)}n=!!f&&new f(function(e){e[h](function(e,t){e.isIntersecting&&(n.unobserve(t=e.target),o(t))})},c),I(e||"[data-src]")[h](function(e){e.setAttribute('lazied',''),e[u]!=p&&(e[u]=p,n?n.observe(e):o(e))})},t,!1)},p.css=function(t,n,e,o,i){p(function(e){(e=E("LINK",n,o)).rel="stylesheet",e.href=t,g(e)},e,i)},p.js=function(t,n,e,o,i){p(function(e){(e=E("SCRIPT",n,o)).src=t,g(e)},e,i)},p.reveal=w,t[u]=p,n=function(e,t){for(t=l==e.type?(x(l),N(),r=p,m[h](j),c):(m[h](x),s);t[0];)o(t[y](),t[y]())},r||j(l)})(this),(function(e,t){t=e.defer=e.Defer,e.deferimg=e.deferiframe=t.dom,e.deferstyle=t.css,e.deferscript=t.js})(this); Defer.lazy = true;/*]]>*/</script>
+<script id='polyfill-js' type="c365b7e1d647c28a887a5d32-text/javascript">'IntersectionObserver'in window||document.write('<script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"><\/script>');</script>
+<script type='application/ld+json'>
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://www.shivatechnicworld.eu.org/",
+    "name": "STW",
+    "alternateName": "STW",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://www.shivatechnicworld.eu.org/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+<script crossorigin='anonymous' src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1476412472736568' type='deferjs'></script>
+
+
+</head>
+
+<body class='oGrd bD onId onHm' id='mainCont'>
+
+<script type="c365b7e1d647c28a887a5d32-text/javascript">/*<![CDATA[*/ (localStorage.getItem('mode')) === 'darkmode' ? document.querySelector('#mainCont').classList.add('drK') : document.querySelector('#mainCont').classList.remove('drK') /*]]>*/</script>
+
+<input class='navi hidden' id='offNav' type='checkbox' />
+<div class='mainWrp'>
+
+<header>
+<div class='navbar'>
+<div class='navIn secIn'>
+<div class='navL'>
+<div class='section' id='navbar-left'><div class='widget Header' data-version='2' id='Header1'>
+<div class='headInn'>
+<h1 class='headH hasSub'>
+<span class='headTtl'>
+STW
+</span>
+<span class='headSub' data-text='Blog'></span>
+</h1>
+</div>
+<div class='headDsc hidden'>The best place that you provide ADB tutorials, Blogger tutorials, Windows and Linux tutorials!</div>
+</div>
+<div class='widget LinkList' data-version='2' id='LinkList002'>
+<ul class='mSoc'>
+<li>
+<a aria-label='Telegram' class='a tIc bIc' href='https://telegram.me/stw_discuss/' rel='noopener' role='button' target='_blank'>
+<svg viewBox='0 0 32 32'><path d='M24,28a1,1,0,0,1-.62-.22l-6.54-5.23a1.83,1.83,0,0,1-.13.16l-4,4a1,1,0,0,1-1.65-.36L8.2,18.72,2.55,15.89a1,1,0,0,1,.09-1.82l26-10a1,1,0,0,1,1,.17,1,1,0,0,1,.33,1l-5,22a1,1,0,0,1-.65.72A1,1,0,0,1,24,28Zm-8.43-9,7.81,6.25L27.61,6.61,5.47,15.12l4,2a1,1,0,0,1,.49.54l2.45,6.54,2.89-2.88-1.9-1.53A1,1,0,0,1,13,19a1,1,0,0,1,.35-.78l7-6a1,1,0,1,1,1.3,1.52Z'></path></svg>
+</a>
+</li>
+<li>
+<a aria-label='Youtube' class='a tIc bIc' href='https://www.youtube.com/c/ShivaTechnicWorld/' rel='noopener' role='button' target='_blank'>
+<svg viewBox='0 0 32 32'><path d='M29.73,9.9A5,5,0,0,0,25.1,5.36a115.19,115.19,0,0,0-18.2,0A5,5,0,0,0,2.27,9.9a69,69,0,0,0,0,12.2A5,5,0,0,0,6.9,26.64c3,.24,6.06.36,9.1.36s6.08-.12,9.1-.36a5,5,0,0,0,4.63-4.54A69,69,0,0,0,29.73,9.9Zm-2,12A3,3,0,0,1,25,24.65a113.8,113.8,0,0,1-17.9,0,3,3,0,0,1-2.78-2.72,65.26,65.26,0,0,1,0-11.86A3,3,0,0,1,7.05,7.35C10,7.12,13,7,16,7s6,.12,9,.35a3,3,0,0,1,2.78,2.72A65.26,65.26,0,0,1,27.73,21.93Z'></path><path d='M21.45,15.11l-8-4A1,1,0,0,0,12,12v8a1,1,0,0,0,.47.85A1,1,0,0,0,13,21a1,1,0,0,0,.45-.11l8-4a1,1,0,0,0,0-1.78ZM14,18.38V13.62L18.76,16Z'></path></svg>
+</a>
+</li>
+</ul>
+</div></div>
+</div>
+<div class='navR'>
+<div class='section' id='navbar-right'><div class='widget BlogSearch' data-version='2' id='BlogSearch1'>
+<form action='/p/search.html' class='srhF' target='_top'>
+<input aria-label='Search this blog' autocomplete='off' id='searchIn' minlength='3' name='q' placeholder='Search...' required='required' type='search' />
+<label class='sb' for='searchIn'>
+<svg class='line' viewBox='0 0 24 24'><g transform='translate(2.000000, 2.000000)'><circle cx='9.76659044' cy='9.76659044' r='8.9885584'></circle><line x1='16.0183067' x2='19.5423342' y1='16.4851259' y2='20.0000001'></line></g></svg>
+</label>
+<button aria-label='Clear' class='sb' data-text='ÃƒÂ¢Ã…â€œÃ¢â‚¬Â¢' type='reset'></button>
+<span class='fCls'></span>
+</form>
+</div><div class='widget TextList' data-version='2' id='TextList001'>
+<ul class='headIc'>
+<li class='isDrk'>
+<span aria-label='Dark' class='tDark tIc tDL bIc' onclick="if (!window.__cfRLUnblockHandlers) return false; darkMode()" role='button' data-cf-modified-c365b7e1d647c28a887a5d32-="">
+<svg class='line' viewBox='0 0 24 24'>
+<g class='d1'><path d='M183.72453,170.371a10.4306,10.4306,0,0,1-.8987,3.793,11.19849,11.19849,0,0,1-5.73738,5.72881,10.43255,10.43255,0,0,1-3.77582.89138,1.99388,1.99388,0,0,0-1.52447,3.18176,10.82936,10.82936,0,1,0,15.118-15.11819A1.99364,1.99364,0,0,0,183.72453,170.371Z' transform='translate(-169.3959 -166.45548)'></path></g>
+<g class='d2'><path class='f' d='M12 18.5C15.5899 18.5 18.5 15.5899 18.5 12C18.5 8.41015 15.5899 5.5 12 5.5C8.41015 5.5 5.5 8.41015 5.5 12C5.5 15.5899 8.41015 18.5 12 18.5Z'></path><path d='M19.14 19.14L19.01 19.01M19.01 4.99L19.14 4.86L19.01 4.99ZM4.86 19.14L4.99 19.01L4.86 19.14ZM12 2.08V2V2.08ZM12 22V21.92V22ZM2.08 12H2H2.08ZM22 12H21.92H22ZM4.99 4.99L4.86 4.86L4.99 4.99Z' stroke-width='2'></path></g></svg>
+</span>
+</li>
+<li>
+<a class='tIc bIc' href='https://www.blogger.com/follow.g?blogID=6674306665135139996' role='button' target='_blank'>
+<svg class='line' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><g><line class='svg-c' x1='13.64847' x2='10.35153' y1='22.00511' y2='22.00511'></line><path d='M105.28571,269.75867h0a2.39194,2.39194,0,0,1-2.39194,2.392H87.67766a2.392,2.392,0,0,1-2.392-2.392h0a2.392,2.392,0,0,1,.98507-1.93445h0a4.28556,4.28556,0,0,0,1.76493-3.46591v-2.08121a7.42772,7.42772,0,0,1,6.72856-7.49819,7.25534,7.25534,0,0,1,7.77145,7.2317v2.34771a4.28557,4.28557,0,0,0,1.76492,3.4659h0A2.392,2.392,0,0,1,105.28571,269.75867Z' transform='translate(-83.28571 -252.76573)'></path></g></svg>
+</a>
+</li>
+</ul>
+</div></div>
+</div>
+</div>
+</div>
+</header>
+
+<div class='secIn no-items section' id='notif-widget'>
+</div>
+
+<div class='mainIn'>
+<div class='secIn'>
+
+<div class='blogTopc'>
+<div class='blogIn'>
+<input class='topI hidden' id='offTop' type='checkbox' />
+<div class='topM'>
+<div class='tpBr'>
+<div class='tpBrs'>
+<div class='tpC'>
+<svg class='rad' viewBox='0 0 160 160'><path d='M0-10,150,0l10,150S137.643,80.734,100.143,43.234,0-10,0-10Z' transform='translate(0 10)'></path></svg>
+<label data-text='Close' for='offTop'>
+
+<svg class='line' viewBox='0 0 24 24'><g transform='translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000) translate(5.000000, 8.500000)'><path d='M14,0 C14,0 9.856,7 7,7 C4.145,7 0,0 0,0'></path></g></svg>
+</label>
+<svg class='rad in' viewBox='0 0 160 160'><path d='M0-10,150,0l10,150S137.643,80.734,100.143,43.234,0-10,0-10Z' transform='translate(0 10)'></path></svg>
+</div>
+<div class='section' id='left-widget'>
+<div class='widget HTML' data-version='2' id='HTML00'>
+<ul class='tpMn' itemscope='itemscope' itemtype='https://schema.org/SiteNavigationElement'>
+<li>
+<a class='a' href='/p/about.html' itemprop='url'>
+<span class='n' itemprop='name'>About</span>
+</a>
+</li>
+<li class='br'>
+<a class='a' href='/p/contact.html' itemprop='url'>
+<span class='n' itemprop='name'>Contact</span>
+</a>
+</li>
+<li class='drp'>
+<details open=''>
+<summary class='a'>
+<span class='n'>Blogger</span>
+<svg class='line d' viewBox='0 0 24 24'><g transform='translate(5.000000, 8.500000)'><path d='M14,0 C14,0 9.856,7 7,7 C4.145,7 0,0 0,0'></path></g></svg>
+</summary>
+<ul>
+<li itemprop='name'><a href='/search/label/Codes' itemprop='url'>Codes</a></li>
+</ul>
+</details>
+</li>
+<li class='drp br'>
+<details open=''>
+<summary class='a'>
+<span class='n'>Tech</span>
+<svg class='line d' viewBox='0 0 24 24'><g transform='translate(5.000000, 8.500000)'><path d='M14,0 C14,0 9.856,7 7,7 C4.145,7 0,0 0,0'></path></g></svg>
+</summary>
+<ul>
+<li itemprop='name'><a href='/search/label/ADB' itemprop='url'>ADB</a></li>
+<li itemprop='name'><a href='/search/label/Android' itemprop='url'>Android</a></li>
+<li itemprop='name'><a href='/search/label/Linux' itemprop='url'>Linux</a></li>
+<li itemprop='name'><a href='/search/label/Windows' itemprop='url'>Windows</a></li>
+</ul>
+</details>
+</li>
+<li>
+<a class='a' href='/p/sitemap.html' itemprop='url'>
+<span class='n' itemprop='name'>Sitemap</span>
+</a>
+</li>
+<li>
+<a class='a' href='https://www.buymeacoffee.com/shivatechnicwo' itemprop='url' target='_blank'>
+<span class='n extL' itemprop='name'>Donate</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<label class='fCls' for='offTop'></label>
+</div>
+<div class='adSticky section' id='left-ad'><div class='widget HTML' data-version='2' id='HTML90'>
+<div class='widget-content'>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1476412472736568" data-ad-slot="5821906427" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script type="c365b7e1d647c28a887a5d32-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div></div>
+</div>
+</div>
+
+<div class='blogCont'>
+<div class='blogIn'>
+
+<div class='blogAd'>
+<div class='no-items section' id='horizontal-ad'>
+</div>
+</div>
+<div class='blogM'>
+
+<main class='blogItm mainbar'>
+<div class='sldO scrlH no-items section' id='slider-widget'>
+</div>
+<div class='section' id='top-widget'>
+<div class='widget FeaturedPost' data-version='2' id='FeaturedPost1'>
+<h2 class='title'>Featured</h2>
+<div class='itemFt' role='feed'>
+<article class='itm'>
+<div class='iThmb pThmb'>
+<a class='thmb' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-animated-progress-back-to.html'>
+<img alt='How to add Animated Progress back to the top in the Blogger' class='imgThm lazy' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCGTROeIcVpa_RE4lzPsselnHB5szizHwxU8WKuWaPeqxPV3qA-9uKOuyvf_UMrR9iqxspgGVj7qSG43Dfxx3z1mZMVRVhbX_mWg3lzTIOLASuVHWKiIgRgeaaZmlaEM-Xzy9CXZzh9wGUBdxxQjTWqSs7eYyRjb0vvsmIsEk9HR0divS-MOTaHVrdnA/w600-h300-p-k-no-nu/animated-progress-scroll-to-top-stw.jpg' src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' />
+<noscript><img alt='How to add Animated Progress back to the top in the Blogger' class='imgThm' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCGTROeIcVpa_RE4lzPsselnHB5szizHwxU8WKuWaPeqxPV3qA-9uKOuyvf_UMrR9iqxspgGVj7qSG43Dfxx3z1mZMVRVhbX_mWg3lzTIOLASuVHWKiIgRgeaaZmlaEM-Xzy9CXZzh9wGUBdxxQjTWqSs7eYyRjb0vvsmIsEk9HR0divS-MOTaHVrdnA/w600-h300-p-k-no-nu/animated-progress-scroll-to-top-stw.jpg'/></noscript>
+</a>
+</div>
+<div class='iCtnt'>
+<div class='pHdr pSml'>
+<div class='aNm'>
+<div class='pLbls' data-text='in'>
+<a aria-label='Blogger' data-text='Blogger' href='https://www.shivatechnicworld.eu.org/search/label/Blogger' rel='tag'>
+</a>
+</div>
+</div>
+</div>
+<h3 class='pTtl aTtl'><a href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-animated-progress-back-to.html'>How to add Animated Progress back to the top in the Blogger</a></h3>
+<div class='pSnpt'>
+Hello everyone, Welcome to Shiva Technic World! If your website page is too long, it will make hard to come back to the top users, like users need t&#8230;
+</div>
+<div class='pInf pSml'>
+<time class='aTtmp pTtmp pbl' data-text='Oct 23, 2022' datetime='2022-10-23T14:26:00+05:30' title='Published: October 23, 2022'></time>
+<a aria-label='Read more' class='pJmp' data-text='Keep reading' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-animated-progress-back-to.html'></a>
+</div>
+</div>
+</article>
+</div>
+</div></div>
+<div class='section' id='main-widget'><div class='widget HTML' data-version='2' id='HTML93'>
+<div class='widget-content'>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-1476412472736568" data-ad-slot="1491924619"></ins>
+<script type="c365b7e1d647c28a887a5d32-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div><div class='widget Blog' data-version='2' id='Blog1'>
+<div class='blogTtl hm'>
+<h3 class='title'>Latest</h3>
+</div>
+<div class='blogPts'>
+<article class='ntry'>
+<div class='pThmb'>
+<a class='thmb' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-click-vibrating-effect-in.html'>
+<img alt='How to add click vibrating effect in Blogger' class='imgThm lazy' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0J3WLGhLP-uxJRo82n7e5yR5OswxwSz4CQV04wXYRn17abarigPPHOb0hOtbVZXGJW6BoCXWi0BPfPEYDWTTNdPjqknydziGPzyp7Eq1FaynStNYQJgI1DGcQxdx0GNTiIPB2N4I1ENocM3URaKte2kMABUSoqygsHCbnNFtUf__85r3UGGkuEnqHuQ/w600-h300-p-k-no-nu/click-vibrating-effect-STW.jpg' src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' />
+<noscript><img alt='How to add click vibrating effect in Blogger' class='imgThm' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0J3WLGhLP-uxJRo82n7e5yR5OswxwSz4CQV04wXYRn17abarigPPHOb0hOtbVZXGJW6BoCXWi0BPfPEYDWTTNdPjqknydziGPzyp7Eq1FaynStNYQJgI1DGcQxdx0GNTiIPB2N4I1ENocM3URaKte2kMABUSoqygsHCbnNFtUf__85r3UGGkuEnqHuQ/w600-h300-p-k-no-nu/click-vibrating-effect-STW.jpg'/></noscript>
+</a>
+</div>
+<div class='pCntn'>
+<div class='pHdr pSml'>
+<div class='aNm'>
+<div class='pLbls' data-text='in'>
+<a aria-label='Blogger' data-text='Blogger' href='https://www.shivatechnicworld.eu.org/search/label/Blogger' rel='tag'>
+</a>
+</div>
+</div>
+</div>
+<h2 class='pTtl aTtl'>
+<a data-text='How to add click vibrating effect in Blogger' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-click-vibrating-effect-in.html' rel='bookmark'>
+How to add click vibrating effect in Blogger
+</a>
+</h2>
+<div class='pSnpt'>
+Hello everyone welcome to Shiva Technic World, You might be like to add a vibrating effect to your website buttons, texts, icons, or any other and y&#8230;
+</div>
+<div class='pInf pSml'>
+<time class='aTtmp pTtmp pbl' data-text='Oct 9, 2022' datetime='2022-10-09T19:09:00+05:30' title='Published: October 9, 2022'></time>
+<a aria-label='Read more' class='pJmp' data-text='Keep reading' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-click-vibrating-effect-in.html'></a>
+</div>
+<script type='application/ld+json'>
+                            {
+                              "@context": "http://schema.org",
+                              "@type": "BlogPosting",
+                              "mainEntityOfPage": {
+                                "@type": "WebPage",
+                                "@id": "https://www.shivatechnicworld.eu.org/2022/10/how-to-add-click-vibrating-effect-in.html"
+                              },
+                              "headline": "How to add click vibrating effect in Blogger",
+                              "description": "Hello everyone welcome to Shiva Technic World, You might be like to add a vibrating effect to your website buttons, texts, icons, or any other and you might be finding the code for it, then you are in right place in this article I am going to show &#8230;",
+                              
+                              "datePublished": "2022-10-09T19:09:00+05:30",
+                              "dateModified": "2022-10-09T19:15:34+05:30",
+                              
+                              "image": {
+                                "@type": "ImageObject",
+                                "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0J3WLGhLP-uxJRo82n7e5yR5OswxwSz4CQV04wXYRn17abarigPPHOb0hOtbVZXGJW6BoCXWi0BPfPEYDWTTNdPjqknydziGPzyp7Eq1FaynStNYQJgI1DGcQxdx0GNTiIPB2N4I1ENocM3URaKte2kMABUSoqygsHCbnNFtUf__85r3UGGkuEnqHuQ/w1200-h630-p-k-no-nu/click-vibrating-effect-STW.jpg",
+                                "height": 630,
+                                "width": 1200
+                              },
+                        
+                              "publisher": {
+                                "@type": "Organization",
+                                "name": "STW",
+                                "logo": {
+                                  "@type": "ImageObject",
+                                  "url": "https://1.bp.blogspot.com/-50s1RMWV7jI/X8OaYjJcMiI/AAAAAAAAQK4/sWcpbaP0Sq0hsW473Vnb8AyBvYvdSQEPwCNcBGAsYHQ/s0/jd-logo.png",
+                                  "width": 297,
+                                  "height": 45
+                                }
+                              },
+                        
+                              "author": {
+                                "@type": "Person",
+                                "name": "Shiva E S",
+                                "url": "https://www.shivatechnicworld.eu.org/",
+                                "image": "//3.bp.blogspot.com/-oVAGhRrQegY/YoX6ehBJxzI/AAAAAAAAKks/pQ5NjzffK3EhDfLqJsSJaDBoJ633g-cvgCK4BGAYYCw/s113-pf/download.jpeg"
+                              }
+                            }
+                          </script>
+</div>
+</article>
+<article class='ntry'>
+<div class='pThmb'>
+<a class='thmb' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-thumbnail-sticky-author-info.html'>
+<img alt='How to add thumbnail sticky author info in Median UI v1.6, Fletro v6.1, iMagz v1.25' class='imgThm lazy' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy5mhpWUKMw6X8FKDOJQStjyOPwphJdu7rQsY566alxMU-HrpJJunOv4HwzoIeluslXenOck7al-0Sj6Drr-uhBtcNF9YDVJjHAT3wm-1uo6NlxUXykuTBoylEx8jbCRz7nyFDfSqGLuPBaVrETTk35fEkO93jEI1A752raGTnBDqS4h_eMrcSz07aow/w600-h300-p-k-no-nu/iFxd-Author-Info-STW.jpg' src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' />
+<noscript><img alt='How to add thumbnail sticky author info in Median UI v1.6, Fletro v6.1, iMagz v1.25' class='imgThm' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy5mhpWUKMw6X8FKDOJQStjyOPwphJdu7rQsY566alxMU-HrpJJunOv4HwzoIeluslXenOck7al-0Sj6Drr-uhBtcNF9YDVJjHAT3wm-1uo6NlxUXykuTBoylEx8jbCRz7nyFDfSqGLuPBaVrETTk35fEkO93jEI1A752raGTnBDqS4h_eMrcSz07aow/w600-h300-p-k-no-nu/iFxd-Author-Info-STW.jpg'/></noscript>
+</a>
+<div class='iFxd'>
+<a aria-label='Comments' class='cmnt' data-text='4' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-thumbnail-sticky-author-info.html#comment' role='button'>
+<svg class='line' viewBox='0 0 24 24'><g transform='translate(2.000000, 2.000000)'><path d='M17.0710351,17.0698449 C14.0159481,20.1263505 9.48959549,20.7867004 5.78630747,19.074012 C5.23960769,18.8538953 1.70113357,19.8338667 0.933341969,19.0669763 C0.165550368,18.2990808 1.14639409,14.7601278 0.926307229,14.213354 C-0.787154393,10.5105699 -0.125888852,5.98259958 2.93020311,2.9270991 C6.83146881,-0.9756997 13.1697694,-0.9756997 17.0710351,2.9270991 C20.9803405,6.8359285 20.9723008,13.1680512 17.0710351,17.0698449 Z'></path></g></svg>
+</a>
+</div>
+</div>
+<div class='pCntn'>
+<div class='pHdr pSml'>
+<div class='aNm'>
+<div class='pLbls' data-text='in'>
+<a aria-label='Blogger' data-text='Blogger' href='https://www.shivatechnicworld.eu.org/search/label/Blogger' rel='tag'>
+</a>
+</div>
+</div>
+</div>
+<h2 class='pTtl aTtl'>
+<a data-text='How to add thumbnail sticky author info in Median UI v1.6, Fletro v6.1, iMagz v1.25' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-thumbnail-sticky-author-info.html' rel='bookmark'>
+How to add thumbnail sticky author info in Median UI v1.6, Fletro v6.1, iMagz v1.25
+</a>
+</h2>
+<div class='pSnpt'>
+Hello everyone, Welcome to Shiva Technic World, You might be trying to add Author info sticky in the post thumbnail and you need to know&#160; How to add &#8230;
+</div>
+<div class='pInf pSml'>
+<time class='aTtmp pTtmp pbl' data-text='Oct 5, 2022' datetime='2022-10-05T13:12:00+05:30' title='Published: October 5, 2022'></time>
+<a aria-label='Read more' class='pJmp' data-text='Keep reading' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-thumbnail-sticky-author-info.html'></a>
+</div>
+<script type='application/ld+json'>
+                            {
+                              "@context": "http://schema.org",
+                              "@type": "BlogPosting",
+                              "mainEntityOfPage": {
+                                "@type": "WebPage",
+                                "@id": "https://www.shivatechnicworld.eu.org/2022/10/how-to-add-thumbnail-sticky-author-info.html"
+                              },
+                              "headline": "How to add thumbnail sticky author info in Median UI v1.6, Fletro v6.1, iMagz v1.25",
+                              "description": "Hello everyone, Welcome to Shiva Technic World, You might be trying to add Author info sticky in the post thumbnail and you need to know&#160; How to add thumbnail sticky author info in Median UI v1.6, Fletro v6.1, iMagz v1.25 ? then this tutorial is for&#8230;",
+                              
+                              "datePublished": "2022-10-05T13:12:00+05:30",
+                              "dateModified": "2022-10-09T15:00:42+05:30",
+                              
+                              "image": {
+                                "@type": "ImageObject",
+                                "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjy5mhpWUKMw6X8FKDOJQStjyOPwphJdu7rQsY566alxMU-HrpJJunOv4HwzoIeluslXenOck7al-0Sj6Drr-uhBtcNF9YDVJjHAT3wm-1uo6NlxUXykuTBoylEx8jbCRz7nyFDfSqGLuPBaVrETTk35fEkO93jEI1A752raGTnBDqS4h_eMrcSz07aow/w1200-h630-p-k-no-nu/iFxd-Author-Info-STW.jpg",
+                                "height": 630,
+                                "width": 1200
+                              },
+                        
+                              "publisher": {
+                                "@type": "Organization",
+                                "name": "STW",
+                                "logo": {
+                                  "@type": "ImageObject",
+                                  "url": "https://1.bp.blogspot.com/-50s1RMWV7jI/X8OaYjJcMiI/AAAAAAAAQK4/sWcpbaP0Sq0hsW473Vnb8AyBvYvdSQEPwCNcBGAsYHQ/s0/jd-logo.png",
+                                  "width": 297,
+                                  "height": 45
+                                }
+                              },
+                        
+                              "author": {
+                                "@type": "Person",
+                                "name": "Shiva E S",
+                                "url": "https://www.shivatechnicworld.eu.org/",
+                                "image": "//3.bp.blogspot.com/-oVAGhRrQegY/YoX6ehBJxzI/AAAAAAAAKks/pQ5NjzffK3EhDfLqJsSJaDBoJ633g-cvgCK4BGAYYCw/s113-pf/download.jpeg"
+                              }
+                            }
+                          </script>
+</div>
+</article>
+<div class='ntry nAd'>
+<ins class='adsbygoogle' data-ad-client='ca-pub-1476412472736568' data-ad-format='fluid' data-ad-layout-key='-gw-3+1f-3d+2z' data-ad-slot='3043465386' style='display:block'></ins>
+<script type="c365b7e1d647c28a887a5d32-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<article class='ntry'>
+<div class='pThmb'>
+<a class='thmb' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-contact-form-with-direct.html'>
+<img alt='How to add a Contact form with a direct email send in Blogger' class='imgThm lazy' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF_JgwVbek6-1D4JLefpkGY4AZ0g-fU_YFXysdSGLBIOgnEQedB1Ck8Zwp3jsGy4BfCXeI2S5_TX4ANlbbAPO35POOP325-_EM_shBZjbkel4SWOHeXkeh36F1P5jFDVwvAd1zZj2hBdgOfE0sH6kjeLleTBN9R0NlWWH4sUJWASeB5Q9Lqs2-6uo2/w600-h300-p-k-no-nu/Fixed-contact-form-STW.jpg' src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' />
+<noscript><img alt='How to add a Contact form with a direct email send in Blogger' class='imgThm' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF_JgwVbek6-1D4JLefpkGY4AZ0g-fU_YFXysdSGLBIOgnEQedB1Ck8Zwp3jsGy4BfCXeI2S5_TX4ANlbbAPO35POOP325-_EM_shBZjbkel4SWOHeXkeh36F1P5jFDVwvAd1zZj2hBdgOfE0sH6kjeLleTBN9R0NlWWH4sUJWASeB5Q9Lqs2-6uo2/w600-h300-p-k-no-nu/Fixed-contact-form-STW.jpg'/></noscript>
+</a>
+<div class='iFxd'>
+<a aria-label='Comments' class='cmnt' data-text='2' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-contact-form-with-direct.html#comment' role='button'>
+<svg class='line' viewBox='0 0 24 24'><g transform='translate(2.000000, 2.000000)'><path d='M17.0710351,17.0698449 C14.0159481,20.1263505 9.48959549,20.7867004 5.78630747,19.074012 C5.23960769,18.8538953 1.70113357,19.8338667 0.933341969,19.0669763 C0.165550368,18.2990808 1.14639409,14.7601278 0.926307229,14.213354 C-0.787154393,10.5105699 -0.125888852,5.98259958 2.93020311,2.9270991 C6.83146881,-0.9756997 13.1697694,-0.9756997 17.0710351,2.9270991 C20.9803405,6.8359285 20.9723008,13.1680512 17.0710351,17.0698449 Z'></path></g></svg>
+</a>
+</div>
+</div>
+<div class='pCntn'>
+<div class='pHdr pSml'>
+<div class='aNm'>
+<div class='pLbls' data-text='in'>
+<a aria-label='Blogger' data-text='Blogger' href='https://www.shivatechnicworld.eu.org/search/label/Blogger' rel='tag'>
+</a>
+</div>
+</div>
+</div>
+<h2 class='pTtl aTtl'>
+<a data-text='How to add a Contact form with a direct email send in Blogger' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-contact-form-with-direct.html' rel='bookmark'>
+How to add a Contact form with a direct email send in Blogger
+</a>
+</h2>
+<div class='pSnpt'>
+Hello everyone welcome to Shiva Technic World, Before a few months a new Blogger API update happened after that custom Blogger-based contact form sto&#8230;
+</div>
+<div class='pInf pSml'>
+<time class='aTtmp pTtmp pbl' data-text='Oct 3, 2022' datetime='2022-10-03T20:50:00+05:30' title='Published: October 3, 2022'></time>
+<a aria-label='Read more' class='pJmp' data-text='Keep reading' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-contact-form-with-direct.html'></a>
+</div>
+<script type='application/ld+json'>
+                            {
+                              "@context": "http://schema.org",
+                              "@type": "BlogPosting",
+                              "mainEntityOfPage": {
+                                "@type": "WebPage",
+                                "@id": "https://www.shivatechnicworld.eu.org/2022/10/how-to-add-contact-form-with-direct.html"
+                              },
+                              "headline": "How to add a Contact form with a direct email send in Blogger",
+                              "description": "Hello everyone welcome to Shiva Technic World, Before a few months a new Blogger API update happened after that custom Blogger-based contact form stopped working and users started to get errors like stuck on \u0026quot;Sending...\u0026quot;, cause after the n&#8230;",
+                              
+                              "datePublished": "2022-10-03T20:50:00+05:30",
+                              "dateModified": "2022-10-03T20:50:46+05:30",
+                              
+                              "image": {
+                                "@type": "ImageObject",
+                                "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF_JgwVbek6-1D4JLefpkGY4AZ0g-fU_YFXysdSGLBIOgnEQedB1Ck8Zwp3jsGy4BfCXeI2S5_TX4ANlbbAPO35POOP325-_EM_shBZjbkel4SWOHeXkeh36F1P5jFDVwvAd1zZj2hBdgOfE0sH6kjeLleTBN9R0NlWWH4sUJWASeB5Q9Lqs2-6uo2/w1200-h630-p-k-no-nu/Fixed-contact-form-STW.jpg",
+                                "height": 630,
+                                "width": 1200
+                              },
+                        
+                              "publisher": {
+                                "@type": "Organization",
+                                "name": "STW",
+                                "logo": {
+                                  "@type": "ImageObject",
+                                  "url": "https://1.bp.blogspot.com/-50s1RMWV7jI/X8OaYjJcMiI/AAAAAAAAQK4/sWcpbaP0Sq0hsW473Vnb8AyBvYvdSQEPwCNcBGAsYHQ/s0/jd-logo.png",
+                                  "width": 297,
+                                  "height": 45
+                                }
+                              },
+                        
+                              "author": {
+                                "@type": "Person",
+                                "name": "Shiva E S",
+                                "url": "https://www.shivatechnicworld.eu.org/",
+                                "image": "//3.bp.blogspot.com/-oVAGhRrQegY/YoX6ehBJxzI/AAAAAAAAKks/pQ5NjzffK3EhDfLqJsSJaDBoJ633g-cvgCK4BGAYYCw/s113-pf/download.jpeg"
+                              }
+                            }
+                          </script>
+</div>
+</article>
+<article class='ntry'>
+<div class='pThmb'>
+<a class='thmb' href='https://www.shivatechnicworld.eu.org/2022/09/best-method-to-speed-up-your-windows-11.html'>
+<img alt='Best method to speed up your Windows 11 PC' class='imgThm lazy' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsJWIKbxBudJS_XcyFkVnta5JbfkJVtt-Gc5txlvv0o7sl3nEW-DTrxqNh-G9iycnPgLMn3OZiH_q-Fyr62g6wW7fmlEI4vzo9xLX7brYTRD-eS8r1YTAOPyACHL_H4d-hnaVw57i75hRMRSOj3OdFP1z5FXhx8geIONz_3i_gzCTkH3AZu0onKiwzlw/w600-h300-p-k-no-nu/speed-up-stw.jpg' src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' />
+<noscript><img alt='Best method to speed up your Windows 11 PC' class='imgThm' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsJWIKbxBudJS_XcyFkVnta5JbfkJVtt-Gc5txlvv0o7sl3nEW-DTrxqNh-G9iycnPgLMn3OZiH_q-Fyr62g6wW7fmlEI4vzo9xLX7brYTRD-eS8r1YTAOPyACHL_H4d-hnaVw57i75hRMRSOj3OdFP1z5FXhx8geIONz_3i_gzCTkH3AZu0onKiwzlw/w600-h300-p-k-no-nu/speed-up-stw.jpg'/></noscript>
+</a>
+</div>
+<div class='pCntn'>
+<div class='pHdr pSml'>
+<div class='aNm'>
+<div class='pLbls' data-text='in'>
+<a aria-label='Speed' data-text='Speed' href='https://www.shivatechnicworld.eu.org/search/label/Speed' rel='tag'>
+</a>
+</div>
+</div>
+</div>
+<h2 class='pTtl aTtl'>
+<a data-text='Best method to speed up your Windows 11 PC' href='https://www.shivatechnicworld.eu.org/2022/09/best-method-to-speed-up-your-windows-11.html' rel='bookmark'>
+Best method to speed up your Windows 11 PC
+</a>
+</h2>
+<div class='pSnpt'>
+Hello everyone, Welcome to Shiva Technic World! Nowadays Windows PCs was slowing down the cause of many caches and other temporary files, So I found &#8230;
+</div>
+<div class='pInf pSml'>
+<time class='aTtmp pTtmp pbl' data-text='Oct 1, 2022' datetime='2022-10-01T12:00:00+05:30' title='Published: October 1, 2022'></time>
+<a aria-label='Read more' class='pJmp' data-text='Keep reading' href='https://www.shivatechnicworld.eu.org/2022/09/best-method-to-speed-up-your-windows-11.html'></a>
+</div>
+<script type='application/ld+json'>
+                            {
+                              "@context": "http://schema.org",
+                              "@type": "BlogPosting",
+                              "mainEntityOfPage": {
+                                "@type": "WebPage",
+                                "@id": "https://www.shivatechnicworld.eu.org/2022/09/best-method-to-speed-up-your-windows-11.html"
+                              },
+                              "headline": "Best method to speed up your Windows 11 PC",
+                              "description": "Hello everyone, Welcome to Shiva Technic World! Nowadays Windows PCs was slowing down the cause of many caches and other temporary files, So I found the best solution for your PC that can easily speed up your Windows 10/11 PC, By following this tuto&#8230;",
+                              
+                              "datePublished": "2022-10-01T12:00:00+05:30",
+                              "dateModified": "2022-10-03T16:55:59+05:30",
+                              
+                              "image": {
+                                "@type": "ImageObject",
+                                "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsJWIKbxBudJS_XcyFkVnta5JbfkJVtt-Gc5txlvv0o7sl3nEW-DTrxqNh-G9iycnPgLMn3OZiH_q-Fyr62g6wW7fmlEI4vzo9xLX7brYTRD-eS8r1YTAOPyACHL_H4d-hnaVw57i75hRMRSOj3OdFP1z5FXhx8geIONz_3i_gzCTkH3AZu0onKiwzlw/w1200-h630-p-k-no-nu/speed-up-stw.jpg",
+                                "height": 630,
+                                "width": 1200
+                              },
+                        
+                              "publisher": {
+                                "@type": "Organization",
+                                "name": "STW",
+                                "logo": {
+                                  "@type": "ImageObject",
+                                  "url": "https://1.bp.blogspot.com/-50s1RMWV7jI/X8OaYjJcMiI/AAAAAAAAQK4/sWcpbaP0Sq0hsW473Vnb8AyBvYvdSQEPwCNcBGAsYHQ/s0/jd-logo.png",
+                                  "width": 297,
+                                  "height": 45
+                                }
+                              },
+                        
+                              "author": {
+                                "@type": "Person",
+                                "name": "Shiva E S",
+                                "url": "https://www.shivatechnicworld.eu.org/",
+                                "image": "//3.bp.blogspot.com/-oVAGhRrQegY/YoX6ehBJxzI/AAAAAAAAKks/pQ5NjzffK3EhDfLqJsSJaDBoJ633g-cvgCK4BGAYYCw/s113-pf/download.jpeg"
+                              }
+                            }
+                          </script>
+</div>
+</article>
+<article class='ntry'>
+<div class='pThmb'>
+<a class='thmb' href='https://www.shivatechnicworld.eu.org/2022/09/how-to-add-reading-progress-bar-in.html'>
+<img alt='How to add reading progress bar in Blogger' class='imgThm lazy' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEwwQUN7sUX_lCxLgq9TQUYdAG8iMxoKZNQRcYjVIeX4hikKDmAKf7MA2EoWwdta3M3JP6OzVUgCbMYvtOSxzQWwVcajTTo4l8Bqp5gE7wQNOnYSIPRqyV_bynnoK7SCkytdeQDULnQzeJ1KP1bIrcmtOBl_FpnPGzPfgRZPJG9v9r0y1Z6Z-Iu7KM-g/w600-h300-p-k-no-nu/progress-bar-neorzo-tech.jpg' src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' />
+<noscript><img alt='How to add reading progress bar in Blogger' class='imgThm' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEwwQUN7sUX_lCxLgq9TQUYdAG8iMxoKZNQRcYjVIeX4hikKDmAKf7MA2EoWwdta3M3JP6OzVUgCbMYvtOSxzQWwVcajTTo4l8Bqp5gE7wQNOnYSIPRqyV_bynnoK7SCkytdeQDULnQzeJ1KP1bIrcmtOBl_FpnPGzPfgRZPJG9v9r0y1Z6Z-Iu7KM-g/w600-h300-p-k-no-nu/progress-bar-neorzo-tech.jpg'/></noscript>
+</a>
+</div>
+<div class='pCntn'>
+<div class='pHdr pSml'>
+<div class='aNm'>
+<div class='pLbls' data-text='in'>
+<a aria-label='Blogger' data-text='Blogger' href='https://www.shivatechnicworld.eu.org/search/label/Blogger' rel='tag'>
+</a>
+</div>
+</div>
+</div>
+<h2 class='pTtl aTtl'>
+<a data-text='How to add reading progress bar in Blogger' href='https://www.shivatechnicworld.eu.org/2022/09/how-to-add-reading-progress-bar-in.html' rel='bookmark'>
+How to add reading progress bar in Blogger
+</a>
+</h2>
+<div class='pSnpt'>
+Hello everyone Welcome to Shiva Technic World nowadays many websites came with a reading progress bar that makes the website a little bit good and ma&#8230;
+</div>
+<div class='pInf pSml'>
+<time class='aTtmp pTtmp pbl' data-text='Sept 24, 2022' datetime='2022-09-24T22:02:00+05:30' title='Published: September 24, 2022'></time>
+<a aria-label='Read more' class='pJmp' data-text='Keep reading' href='https://www.shivatechnicworld.eu.org/2022/09/how-to-add-reading-progress-bar-in.html'></a>
+</div>
+<script type='application/ld+json'>
+                            {
+                              "@context": "http://schema.org",
+                              "@type": "BlogPosting",
+                              "mainEntityOfPage": {
+                                "@type": "WebPage",
+                                "@id": "https://www.shivatechnicworld.eu.org/2022/09/how-to-add-reading-progress-bar-in.html"
+                              },
+                              "headline": "How to add reading progress bar in Blogger",
+                              "description": "Hello everyone Welcome to Shiva Technic World nowadays many websites came with a reading progress bar that makes the website a little bit good and makes users easier to understand where they reached your website while reading an article. By followin&#8230;",
+                              
+                              "datePublished": "2022-09-24T22:02:00+05:30",
+                              "dateModified": "2022-09-25T12:01:10+05:30",
+                              
+                              "image": {
+                                "@type": "ImageObject",
+                                "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEwwQUN7sUX_lCxLgq9TQUYdAG8iMxoKZNQRcYjVIeX4hikKDmAKf7MA2EoWwdta3M3JP6OzVUgCbMYvtOSxzQWwVcajTTo4l8Bqp5gE7wQNOnYSIPRqyV_bynnoK7SCkytdeQDULnQzeJ1KP1bIrcmtOBl_FpnPGzPfgRZPJG9v9r0y1Z6Z-Iu7KM-g/w1200-h630-p-k-no-nu/progress-bar-neorzo-tech.jpg",
+                                "height": 630,
+                                "width": 1200
+                              },
+                        
+                              "publisher": {
+                                "@type": "Organization",
+                                "name": "STW",
+                                "logo": {
+                                  "@type": "ImageObject",
+                                  "url": "https://1.bp.blogspot.com/-50s1RMWV7jI/X8OaYjJcMiI/AAAAAAAAQK4/sWcpbaP0Sq0hsW473Vnb8AyBvYvdSQEPwCNcBGAsYHQ/s0/jd-logo.png",
+                                  "width": 297,
+                                  "height": 45
+                                }
+                              },
+                        
+                              "author": {
+                                "@type": "Person",
+                                "name": "Shiva E S",
+                                "url": "https://www.shivatechnicworld.eu.org/",
+                                "image": "//3.bp.blogspot.com/-oVAGhRrQegY/YoX6ehBJxzI/AAAAAAAAKks/pQ5NjzffK3EhDfLqJsSJaDBoJ633g-cvgCK4BGAYYCw/s113-pf/download.jpeg"
+                              }
+                            }
+                          </script>
+</div>
+</article>
+</div>
+<div class='blogPg' id='blogPager'>
+<div class='nwLnk nPst' data-text='Newest'>
+<svg class='line' viewBox='0 0 24 24'><g transform='translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) translate(5.500000, 4.000000)'><line x1='6.7743' x2='6.7743' y1='15.7501' y2='0.7501'></line><path d='M12.7988,9.6998 C12.7988,9.6998 9.5378,15.7498 6.7758,15.7498 C4.0118,15.7498 0.7498,9.6998 0.7498,9.6998'></path></g></svg>
+</div>
+<div class='hmLnk nPst'>
+<svg class='line' viewBox='0 0 24 24'><g transform='translate(2.400000, 2.000000)'><path d='M1.24344979e-14,11.713 C1.24344979e-14,6.082 0.614,6.475 3.919,3.41 C5.365,2.246 7.615,0 9.558,0 C11.5,0 13.795,2.235 15.254,3.41 C18.559,6.475 19.172,6.082 19.172,11.713 C19.172,20 17.213,20 9.586,20 C1.959,20 1.24344979e-14,20 1.24344979e-14,11.713 Z'></path></g></svg>
+</div>
+<a aria-label='Oldest' class='olLnk' data-text='Oldest' href='https://www.shivatechnicworld.eu.org/search?updated-max=2022-09-24T22:02:00%2B05:30&max-results=6'>
+<svg class='line' viewBox='0 0 24 24'><g transform='translate(12.000000, 12.000000) rotate(-90.000000) translate(-12.000000, -12.000000) translate(5.500000, 4.000000)'><line x1='6.7743' x2='6.7743' y1='15.7501' y2='0.7501'></line><path d='M12.7988,9.6998 C12.7988,9.6998 9.5378,15.7498 6.7758,15.7498 C4.0118,15.7498 0.7498,9.6998 0.7498,9.6998'></path></g></svg>
+</a>
+</div>
+</div><div class='widget TextList' data-version='2' id='TextList035'>
+<div class='ctgW'>
+<ins class='adsbygoogle' data-ad-client='ca-pub-1476412472736568' data-ad-format='fluid' data-ad-layout-key='-fb+5w+4e-db+86' data-ad-slot='1491924619' style='display:block'></ins>
+<script type="c365b7e1d647c28a887a5d32-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<h2 class='title'>Blogger</h2>
+<div class='ctgC' data-home='https://www.shivatechnicworld.eu.org/' data-label='Blogger' data-title='' id='categoryId0'>
+<div class='note'>Loading Posts...</div>
+</div>
+</div>
+<div class='ctgW'>
+<ins class='adsbygoogle' data-ad-client='ca-pub-1476412472736568' data-ad-format='fluid' data-ad-layout-key='-fb+5w+4e-db+86' data-ad-slot='1491924619' style='display:block'></ins>
+<script type="c365b7e1d647c28a887a5d32-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<h2 class='title'>Tech</h2>
+<div class='ctgC' data-home='https://www.shivatechnicworld.eu.org/' data-label='Tech' data-title='' id='categoryId1'>
+<div class='note'>Loading Posts...</div>
+</div>
+</div>
+<script type="c365b7e1d647c28a887a5d32-text/javascript">/*<![CDATA[*/ Defer.js('https://cdn.jsdelivr.net/gh/fineshopdesign/blogger@main/assets/categoryPosts/js/categoryPosts.min.js','cPts-js',10,function(){for(var cId=document.querySelectorAll('[id^=categoryId]'),i=0;i<cId.length;++i){categoryPost({home:cId[i].getAttribute('data-home'),title:cId[i].getAttribute('data-title'),label:cId[i].getAttribute('data-label'),id:cId[i].id,time:'published',ldCl:'loaded',pstNm:6,thmbSize:600,snptLnth:120,pgn:true})};}); /*]]>*/</script>
+</div>
+</div>
+<div class='section' id='add-widget'><div class='widget HTML' data-version='2' id='HTML94'>
+<div class='widget-content'>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-1476412472736568" data-ad-slot="1491924619"></ins>
+<script type="c365b7e1d647c28a887a5d32-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div></div>
+</main>
+
+<aside class='blogItm sidebar'>
+<div class='sideIn'>
+<div class='section' id='side-widget'><div class='widget PopularPosts' data-version='2' id='PopularPosts00'>
+<h2 class='title'>Popular</h2>
+<div class='itemPp' role='feed'>
+<article class='itm mostP'>
+<div class='iThmb pThmb'>
+<a class='thmb' href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-animated-progress-back-to.html'>
+<img alt='How to add Animated Progress back to the top in the Blogger' class='imgThm lazy' data-src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCGTROeIcVpa_RE4lzPsselnHB5szizHwxU8WKuWaPeqxPV3qA-9uKOuyvf_UMrR9iqxspgGVj7qSG43Dfxx3z1mZMVRVhbX_mWg3lzTIOLASuVHWKiIgRgeaaZmlaEM-Xzy9CXZzh9wGUBdxxQjTWqSs7eYyRjb0vvsmIsEk9HR0divS-MOTaHVrdnA/w600-h300-p-k-no-nu/animated-progress-scroll-to-top-stw.jpg' src='data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=' />
+<noscript><img alt='How to add Animated Progress back to the top in the Blogger' class='imgThm' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCGTROeIcVpa_RE4lzPsselnHB5szizHwxU8WKuWaPeqxPV3qA-9uKOuyvf_UMrR9iqxspgGVj7qSG43Dfxx3z1mZMVRVhbX_mWg3lzTIOLASuVHWKiIgRgeaaZmlaEM-Xzy9CXZzh9wGUBdxxQjTWqSs7eYyRjb0vvsmIsEk9HR0divS-MOTaHVrdnA/w600-h300-p-k-no-nu/animated-progress-scroll-to-top-stw.jpg'/></noscript>
+</a>
+</div>
+<div class='iInf pSml'>
+<time class='aTtmp iTtmp pbl' data-text='Oct 23' datetime='2022-10-23T14:26:00+05:30' title='Published: October 23, 2022'></time>
+<div class='pLbls' data-text='in'>
+<a aria-label='Blogger' data-text='Blogger' href='https://www.shivatechnicworld.eu.org/search/label/Blogger' rel='tag'>
+</a>
+</div>
+</div>
+<div class='iCtnt'>
+<div class='iInr'>
+<h3 class='iTtl aTtl'><a href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-animated-progress-back-to.html'>How to add Animated Progress back to the top in the Blogger</a></h3>
+<div class='pSnpt'>
+Hello everyone, Welcome to Shiva Technic World! If your website page is too long, it will make hard to come back to the top users, like users need t&#8230;
+</div>
+</div>
+</div>
+</article>
+<article class='itm'>
+<div class='iInf pSml'>
+<time class='aTtmp iTtmp pbl' data-text='Oct 5' datetime='2022-10-05T13:12:00+05:30' title='Published: October 5, 2022'></time>
+<div class='pLbls' data-text='in'>
+<a aria-label='Blogger' data-text='Blogger' href='https://www.shivatechnicworld.eu.org/search/label/Blogger' rel='tag'>
+</a>
+</div>
+</div>
+<div class='iCtnt'>
+<div class='iInr'>
+<h3 class='iTtl aTtl'><a href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-thumbnail-sticky-author-info.html'>How to add thumbnail sticky author info in Median UI v1.6, Fletro v6.1, iMagz v1.25</a></h3>
+</div>
+</div>
+</article>
+<article class='itm'>
+<div class='iInf pSml'>
+<time class='aTtmp iTtmp pbl' data-text='Aug 13' datetime='2022-08-13T17:16:00+05:30' title='Published: August 13, 2022'></time>
+<div class='pLbls' data-text='in'>
+<a aria-label='Blogger' data-text='Blogger' href='https://www.shivatechnicworld.eu.org/search/label/Blogger' rel='tag'>
+</a>
+</div>
+</div>
+<div class='iCtnt'>
+<div class='iInr'>
+<h3 class='iTtl aTtl'><a href='https://www.shivatechnicworld.eu.org/2022/08/how-to-add-reaction-bar-in-blogger-lazy.html'>How to add Reaction Bar in Blogger (Lazy Load)</a></h3>
+</div>
+</div>
+</article>
+<article class='itm'>
+<div class='iInf pSml'>
+<time class='aTtmp iTtmp pbl' data-text='Oct 9' datetime='2022-10-09T19:09:00+05:30' title='Published: October 9, 2022'></time>
+<div class='pLbls' data-text='in'>
+<a aria-label='Blogger' data-text='Blogger' href='https://www.shivatechnicworld.eu.org/search/label/Blogger' rel='tag'>
+</a>
+</div>
+</div>
+<div class='iCtnt'>
+<div class='iInr'>
+<h3 class='iTtl aTtl'><a href='https://www.shivatechnicworld.eu.org/2022/10/how-to-add-click-vibrating-effect-in.html'>How to add click vibrating effect in Blogger</a></h3>
+</div>
+</div>
+</article>
+<article class='itm'>
+<div class='iInf pSml'>
+<time class='aTtmp iTtmp pbl' data-text='Jul 3' datetime='2022-07-03T17:20:00+05:30' title='Published: July 3, 2022'></time>
+<div class='pLbls' data-text='in'>
+<a aria-label='Blogger' data-text='Blogger' href='https://www.shivatechnicworld.eu.org/search/label/Blogger' rel='tag'>
+</a>
+</div>
+</div>
+<div class='iCtnt'>
+<div class='iInr'>
+<h3 class='iTtl aTtl'><a href='https://www.shivatechnicworld.eu.org/2022/07/how-to-add-popup-changelog-feature-in.html'>How to add a popup changelog feature in Blogger</a></h3>
+</div>
+</div>
+</article>
+</div>
+</div><div class='widget Label' data-version='2' id='Label00'>
+<h3 class='title'>
+Labels
+</h3>
+<div class='wL pSml bg cl'>
+<div class='lbSz s-1'>
+<a aria-label='ADB' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/ADB'>
+<span class='lbT'>ADB</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Android' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Android'>
+<span class='lbT'>Android</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Apps' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Apps'>
+<span class='lbT'>Apps</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Bloatware' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Bloatware'>
+<span class='lbT'>Bloatware</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-5'>
+<a aria-label='Blogger' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Blogger'>
+<span class='lbT'>Blogger</span>
+<span class='lbC' data-text='(8)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Changelog' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Changelog'>
+<span class='lbT'>Changelog</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSh'>
+<input class='lbIn hidden' id='lbAl-1' type='checkbox' />
+<div class='lbAl'>
+<div class='lbSz s-5'>
+<a aria-label='Codes' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Codes'>
+<span class='lbT'>Codes</span>
+<span class='lbC' data-text='(8)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Contact Form' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Contact%20Form'>
+<span class='lbT'>Contact Form</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Debian' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Debian'>
+<span class='lbT'>Debian</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='How To' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/How%20To'>
+<span class='lbT'>How To</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Linux' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Linux'>
+<span class='lbT'>Linux</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Login feature' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Login%20feature'>
+<span class='lbT'>Login feature</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Progress Back to top' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Progress%20Back%20to%20top'>
+<span class='lbT'>Progress Back to top</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Reaction Bar' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Reaction%20Bar'>
+<span class='lbT'>Reaction Bar</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Speed' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Speed'>
+<span class='lbT'>Speed</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Sticky author info' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Sticky%20author%20info'>
+<span class='lbT'>Sticky author info</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-3'>
+<a aria-label='Tech' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Tech'>
+<span class='lbT'>Tech</span>
+<span class='lbC' data-text='(3)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Vibrating effect' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Vibrating%20effect'>
+<span class='lbT'>Vibrating effect</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+<div class='lbSz s-1'>
+<a aria-label='Windows' class='lbN' href='https://www.shivatechnicworld.eu.org/search/label/Windows'>
+<span class='lbT'>Windows</span>
+<span class='lbC' data-text='(1)'></span>
+</a>
+</div>
+</div>
+<label aria-label='Show labels' class='lbM' data-hide='Show less' data-show='Show more' data-text='(+13)' for='lbAl-1'></label>
+</div>
+</div>
+</div></div>
+
+<div class='sideSticky section' id='side-sticky'><div class='widget HTML' data-version='2' id='HTML95'>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1476412472736568" data-ad-slot="5821906427" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script type="c365b7e1d647c28a887a5d32-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div>
+</div>
+</aside>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer>
+<div class='secIn'>
+
+<div class='cdtIn section' id='credit-widget'><div class='widget HTML' data-version='2' id='HTML88'>
+<div class='fotCd'>
+<span class='credit'>
+&#169; <span id='getYear'><script type="c365b7e1d647c28a887a5d32-text/javascript">/*<![CDATA[*/ var d = new Date(); var n = d.getFullYear(); document.getElementById('getYear').innerHTML = n; /*]]>*/</script></span>
+<bdi><a href='https://www.shivatechnicworld.eu.org/'>STW</a></bdi>
+</span>
+<span class='creator pSml'>Theme by <a href='https://www.houseofblogger.xyz'>HOB</a></span>
+</div>
+</div><div class='widget PageList' data-version='2' id='PageList88'>
+<input class='ftI hidden' id='offFot' type='checkbox' />
+<label class='ftL' for='offFot'>
+<svg class='line' viewBox='0 0 24 24'><path d='M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3'></path><line x1='8' x2='16' y1='12' y2='12'></line></svg>
+<svg class='line u' viewBox='0 0 24 24'><g transform='translate(12.000000, 12.000000) rotate(-180.000000) translate(-12.000000, -12.000000) translate(5.000000, 8.500000)'><path d='M14,0 C14,0 9.856,7 7,7 C4.145,7 0,0 0,0'></path></g></svg>
+</label>
+<ul class='ftMn'>
+</ul>
+<label class='fCls' for='offFot'></label>
+</div><div class='widget LinkList' data-version='2' id='LinkList88'>
+<ul class='mSoc'>
+<li>
+<a aria-label='Telegram' class='a tIc bIc' href='https://telegram.me/stw_discuss/' rel='noopener' role='button' target='_blank'>
+<svg viewBox='0 0 32 32'><path d='M24,28a1,1,0,0,1-.62-.22l-6.54-5.23a1.83,1.83,0,0,1-.13.16l-4,4a1,1,0,0,1-1.65-.36L8.2,18.72,2.55,15.89a1,1,0,0,1,.09-1.82l26-10a1,1,0,0,1,1,.17,1,1,0,0,1,.33,1l-5,22a1,1,0,0,1-.65.72A1,1,0,0,1,24,28Zm-8.43-9,7.81,6.25L27.61,6.61,5.47,15.12l4,2a1,1,0,0,1,.49.54l2.45,6.54,2.89-2.88-1.9-1.53A1,1,0,0,1,13,19a1,1,0,0,1,.35-.78l7-6a1,1,0,1,1,1.3,1.52Z'></path></svg>
+</a>
+</li>
+<li>
+<a aria-label='Youtube' class='a tIc bIc' href='https://www.youtube.com/c/ShivaTechnicWorld/' rel='noopener' role='button' target='_blank'>
+<svg viewBox='0 0 32 32'><path d='M29.73,9.9A5,5,0,0,0,25.1,5.36a115.19,115.19,0,0,0-18.2,0A5,5,0,0,0,2.27,9.9a69,69,0,0,0,0,12.2A5,5,0,0,0,6.9,26.64c3,.24,6.06.36,9.1.36s6.08-.12,9.1-.36a5,5,0,0,0,4.63-4.54A69,69,0,0,0,29.73,9.9Zm-2,12A3,3,0,0,1,25,24.65a113.8,113.8,0,0,1-17.9,0,3,3,0,0,1-2.78-2.72,65.26,65.26,0,0,1,0-11.86A3,3,0,0,1,7.05,7.35C10,7.12,13,7,16,7s6,.12,9,.35a3,3,0,0,1,2.78,2.72A65.26,65.26,0,0,1,27.73,21.93Z'></path><path d='M21.45,15.11l-8-4A1,1,0,0,0,12,12v8a1,1,0,0,0,.47.85A1,1,0,0,0,13,21a1,1,0,0,0,.45-.11l8-4a1,1,0,0,0,0-1.78ZM14,18.38V13.62L18.76,16Z'></path></svg>
+</a>
+</li>
+</ul>
+</div></div>
+</div>
+</footer>
+
+</div>
+
+<noscript>
+<input class='nJs hidden' id='forNoJS' type='checkbox'/>
+<div class='noJs' data-text='STW works best with JavaScript enabled'>
+<label for='forNoJS'></label>
+</div>
+</noscript>
+
+<script type="c365b7e1d647c28a887a5d32-text/javascript"> /*! Simple AJAX infinite scroll by Taufik Nurrohman dte.web.id */ !function(t,e){t.InfiniteScroll=function(n){function r(t,n){return n=n||e,n.querySelectorAll(t)}function o(t){return void 0!==t}function a(t){return"function"==typeof t}function i(t,e){t=t||{};for(var n in e)t[n]="object"==typeof e[n]?i(t[n],e[n]):e[n];return t}function s(t,e,n){return o(t)?o(e)?void(o(n)?g[t][n]=e:g[t].push(e)):g[t]:g}function d(t,e){o(e)?delete g[t][e]:g[t]=[]}function l(t,e){if(o(g[t]))for(var n in g[t])g[t][n](e)}function c(){return L.innerHTML=p.text.loading,v=!0,M?(y.classList.add(p.state.loading),l("loading",[p]),void u(M,function(t,n){y.className=x+" "+p.state.load,h=e.createElement("div"),h.innerHTML=t;var o=r("title",h),a=r(p.target.post,h),i=r(p.target.anchors+" "+p.target.anchor,h),s=r(p.target.post,H);if(o=o&&o[0]?o[0].innerHTML:"",a.length&&s.length){var d=s[s.length-1];e.title=o,d.insertAdjacentHTML("afterend"," "),h=e.createElement("div");for(var c=0,u=a.length;u>c;++c)h.appendChild(a[c]);d.insertAdjacentHTML("afterend",h.innerHTML),f(),M=i.length?i[0].href:!1,v=!1,q++,l("load",[p,t,n])}},function(t,e){y.classList.add(p.state.error),v=!1,f(1),l("error",[p,t,e])})):(y.classList.add(p.state.loaded),L.innerHTML=p.text.loaded,l("loaded",[p]))}function f(t){if(L.innerHTML="",T){h.innerHTML=p.text[t?"error":"load"];var e=h.firstChild;e.onclick=function(){return 2===p.type&&(T=!1),c(),!1},L.appendChild(e)}}var u="infinite-scroll-state-",p={target:{posts:".posts",post:".post",anchors:".anchors",anchor:".anchor"},text:{load:"%s",loading:"%s",loaded:"%s",error:"%s"},state:{load:u+"load",loading:u+"loading",loaded:u+"loaded",error:u+"error"}},g={load:[],loading:[],loaded:[],error:[]};p=i(p,n||{}),p.on=s,p.off=d;var h=null,u=function(e,n,r){if(t.XMLHttpRequest){var o=new XMLHttpRequest;o.onreadystatechange=function(){if(4===o.readyState){if(200!==o.status)return void(r&&a(r)&&r(o.responseText,o));n&&a(n)&&n(o.responseText,o)}},o.open("GET",e),o.send()}},T=1!==p.type,v=!1,H=r(p.target.posts)[0],L=r(p.target.anchors)[0],M=r(p.target.anchor,L),m=e.body,y=e.documentElement,x=y.className||"",E=H.offsetTop+H.offsetHeight,j=t.innerHeight,A=0,b=null,q=1;if(M.length){M=M[0].href,H.insertAdjacentHTML("afterbegin"," "),h=e.createElement("div"),f();var w=function(){E=H.offsetTop+H.offsetHeight,j=t.innerHeight,A=m.scrollTop||y.scrollTop,v||E>A+j||c()};w(),0!==p.type&&t.addEventListener("scroll",function(){T||(b&&t.clearTimeout(b),b=t.setTimeout(w,200))},!1)}return p}}(window,document);
+if(typeof InfiniteScroll !== "undefined") { var infinite_scroll = new InfiniteScroll ({ type: 0,
+target: { posts: ".blogPts", post: ".ntry", anchors: ".blogPg", anchor: ".olLnk"},
+text: {
+load: "<a aria-label='Load more posts' class='jsLd' data-text='Load more posts' href='javascript:;'></a>",
+loading: "<div class='jsLd wait nPst' data-text='Loading&hellip;'><svg viewBox='0 0 50 50' x='0px' y='0px'><path d='M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z'><animateTransform attributeName='transform' attributeType='xml' dur='0.6s' from='0 25 25' repeatCount='indefinite' to='360 25 25' type='rotate'></animateTransform></path></svg></div>",
+loaded: "<div class='jsLd nPst' data-text='No results found'></div>",
+error: "<a aria-label='Load more posts' class='jsLd error' data-text='More&hellip;' href='javascript:;'></a>"} }); }</script>
+
+<div class='Ttop'>
+<svg onclick="if (!window.__cfRLUnblockHandlers) return false; window.scrollTo({top: 0})" viewBox='0 0 34 34' data-cf-modified-c365b7e1d647c28a887a5d32-=""><circle class='b' cx='17' cy='17' r='15.92'></circle><circle class='c' cx='17' cy='17' r='15.92'></circle><path class='line d' d='M15.07,21.06,19.16,17l-4.09-4.06'></path></svg>
+</div>
+
+<script type="c365b7e1d647c28a887a5d32-text/javascript">/*<![CDATA[*/ var BloGGer=stw;(function(PrOtEcted,ShIvAtechnicworld){var PROtEcted=stw,pROtEcted=PrOtEcted();while(!![]){try{var bLOgGer=-parseInt(PROtEcted(0xd8))/0x1*(-parseInt(PROtEcted(0xda))/0x2)+parseInt(PROtEcted(0xc0))/0x3*(-parseInt(PROtEcted(0xeb))/0x4)+-parseInt(PROtEcted(0x89))/0x5+parseInt(PROtEcted(0xb4))/0x6*(-parseInt(PROtEcted(0xa0))/0x7)+-parseInt(PROtEcted(0xc3))/0x8+parseInt(PROtEcted(0xab))/0x9*(parseInt(PROtEcted(0xa5))/0xa)+parseInt(PROtEcted(0x9f))/0xb;if(bLOgGer===ShIvAtechnicworld)break;else pROtEcted['push'](pROtEcted['shift']());}catch(sHIvAtechnicworld){pROtEcted['push'](pROtEcted['shift']());}}}(protected,0x98141));function darkMode(){var BLOgGer=stw;localStorage['setItem'](BLOgGer(0xe1),BLOgGer(0x9d)===localStorage[BLOgGer(0xec)](BLOgGer(0xe1))?BLOgGer(0x9b):'darkmode'),BLOgGer(0x9d)===localStorage[BLOgGer(0xec)](BLOgGer(0xe1))?document[BLOgGer(0x88)]('#mainCont')[BLOgGer(0xba)]['add'](BLOgGer(0xe6)):document[BLOgGer(0x88)](BLOgGer(0x95))[BLOgGer(0xba)][BLOgGer(0xd7)](BLOgGer(0xe6));};function headScroll(){var SHIvAtechnicworld=stw;const Blogger=window[SHIvAtechnicworld(0x8b)]||document[SHIvAtechnicworld(0xaa)][SHIvAtechnicworld(0x93)],Shivatechnicworld=0x28,Protected=document[SHIvAtechnicworld(0xe2)](SHIvAtechnicworld(0xc9));Blogger>Shivatechnicworld?Protected['classList']['add'](SHIvAtechnicworld(0xa8)):Protected['classList'][SHIvAtechnicworld(0xd7)](SHIvAtechnicworld(0xa8));}window['addEventListener']('scroll',headScroll),(function(){var bloGGer=stw,Stw=document[bloGGer(0xa4)]('.lazyYt');for(var bLogger=0x0;bLogger<Stw[bloGGer(0xe5)];bLogger++){var sTw=bloGGer(0xb1)+Stw[bLogger][bloGGer(0x8e)][bloGGer(0xb3)]+bloGGer(0xe0),sHivatechnicworld=new Image();sHivatechnicworld[bloGGer(0xad)](bloGGer(0xc1),bloGGer(0x92)),sHivatechnicworld[bloGGer(0xad)]('data-src',sTw),sHivatechnicworld[bloGGer(0xad)](bloGGer(0x9e),bloGGer(0xd3)),sHivatechnicworld[bloGGer(0xad)]('alt',bloGGer(0xaf)),sHivatechnicworld[bloGGer(0x97)](bloGGer(0xb2),(function(){var shiVAtechnicworld=bloGGer;Stw[bLogger][shiVAtechnicworld(0xe3)](sHivatechnicworld);}(bLogger))),Stw[bLogger]['addEventListener'](bloGGer(0xe9),function(){var proTEcted=bloGGer,pRotected=document[proTEcted(0xcb)](proTEcted(0xc2));pRotected[proTEcted(0xad)]('frameborder','0'),pRotected[proTEcted(0xad)](proTEcted(0xdf),''),pRotected[proTEcted(0xad)](proTEcted(0x9e),'https://www.youtube.com/embed/'+this[proTEcted(0x8e)][proTEcted(0xb3)]+proTEcted(0xdb)),this[proTEcted(0xbd)]='',this[proTEcted(0xe3)](pRotected);});};}());for(var imageslazy=document[BloGGer(0xa4)](BloGGer(0xdc)),i=0x0;i<imageslazy['length'];i++)imageslazy[i][BloGGer(0xad)]('onclick',BloGGer(0x98));function wrap(PRotected,STw,SHivatechnicworld){var sHiVAtechnicworld=BloGGer,BLogger=(function(){var PrOtected=!![];return function(BlOgger,StW){var ShIvatechnicworld=PrOtected?function(){var ShiVAtechnicworld=stw;if(StW){var pROtected=StW[ShiVAtechnicworld(0xdd)](BlOgger,arguments);return StW=null,pROtected;}}:function(){};return PrOtected=![],ShIvatechnicworld;};}()),blOgger=BLogger(this,function(){var pRoTEcted=stw,sHIvatechnicworld=function(){var ProTEcted=stw,pROTected;try{pROTected=Function(ProTEcted(0xc6)+ProTEcted(0xd4)+');')();}catch(SHIVatechnicworld){pROTected=window;}return pROTected;},sTW=sHIvatechnicworld(),bLOgger=new RegExp(pRoTEcted(0xb9),'g'),SHIvatechnicworld=pRoTEcted(0xc5)[pRoTEcted(0xa7)](bLOgger,'')[pRoTEcted(0xbe)](';'),BLOgger,STW,PROtected,shiVatechnicworld,proTected=function(PROTected,BLOGger,blogGer){var bLoGGer=pRoTEcted;if(PROTected[bLoGGer(0xe5)]!=BLOGger)return![];for(var protEcted=0x0;protEcted<BLOGger;protEcted++){for(var shivAtechnicworld=0x0;shivAtechnicworld<blogGer[bLoGGer(0xe5)];shivAtechnicworld+=0x2){if(protEcted==blogGer[shivAtechnicworld]&&PROTected[bLoGGer(0x96)](protEcted)!=blogGer[shivAtechnicworld+0x1])return![];}}return!![];},bloGger=function(ShivAtechnicworld,BlogGer,ProtEcted){return proTected(BlogGer,ProtEcted,ShivAtechnicworld);},ShiVatechnicworld=function(bLogGer,sHivAtechnicworld,pRotEcted){return bloGger(sHivAtechnicworld,bLogGer,pRotEcted);},ProTected=function(PRotEcted,SHivAtechnicworld,BLogGer){return ShiVatechnicworld(SHivAtechnicworld,BLogGer,PRotEcted);};for(var BloGger in sTW){if(proTected(BloGger,0x8,[0x7,0x74,0x5,0x65,0x3,0x75,0x0,0x64])){BLOgger=BloGger;break;}}for(var sHiVatechnicworld in sTW[BLOgger]){if(ProTected(0x6,sHiVatechnicworld,[0x5,0x6e,0x0,0x64])){STW=sHiVatechnicworld;break;}}for(var pRoTected in sTW[BLOgger]){if(ShiVatechnicworld(pRoTected,[0x7,0x6e,0x0,0x6c],0x8)){PROtected=pRoTected;break;}}if(!('~'>STW))for(var bLoGger in sTW[BLOgger][PROtected]){if(bloGger([0x7,0x65,0x0,0x68],bLoGger,0x8)){shiVatechnicworld=bLoGger;break;}}if(!BLOgger||!sTW[BLOgger])return;var PRoTected=sTW[BLOgger][STW],SHiVatechnicworld=!!sTW[BLOgger][PROtected]&&sTW[BLOgger][PROtected][shiVatechnicworld],BLoGger=PRoTected||SHiVatechnicworld;if(!BLoGger)return;var blOGger=![];for(var shIVatechnicworld=0x0;shIVatechnicworld<SHIvatechnicworld[pRoTEcted(0xe5)];shIVatechnicworld++){var STW=SHIvatechnicworld[shIVatechnicworld],prOTected=STW[0x0]===String[pRoTEcted(0x90)](0x2e)?STW[pRoTEcted(0xae)](0x1):STW,PrOTected=BLoGger['length']-prOTected[pRoTEcted(0xe5)],BlOGger=BLoGger[pRoTEcted(0x8f)](prOTected,PrOTected),ShIVatechnicworld=BlOGger!==-0x1&&BlOGger===PrOTected;ShIVatechnicworld&&((BLoGger[pRoTEcted(0xe5)]==STW[pRoTEcted(0xe5)]||STW[pRoTEcted(0x8f)]('.')===0x0)&&(blOGger=!![]));}if(!blOGger){var bLOGger=new RegExp(pRoTEcted(0xc4),'g'),sHIVatechnicworld=pRoTEcted(0x91)[pRoTEcted(0xa7)](bLOGger,'');sTW[BLOgger][PROtected]=sHIVatechnicworld;}});blOgger();for(var shIvatechnicworld=document[sHiVAtechnicworld(0xa4)](STw),stW=0x0;stW<shIvatechnicworld['length'];stW++){var prOtected=PRotected+shIvatechnicworld[stW][sHiVAtechnicworld(0x94)]+SHivatechnicworld;shIvatechnicworld[stW][sHiVAtechnicworld(0x94)]=prOtected;}}wrap(BloGGer(0xde),BloGGer(0xd2),'</div>'),wrap(BloGGer(0xde),BloGGer(0x9c),'</div>'),wrap(BloGGer(0xde),BloGGer(0xe8),BloGGer(0xcd)),wrap('<div\x20class=\x22zmImg\x22>',BloGGer(0xa1),BloGGer(0xcd)),wrap(BloGGer(0xde),BloGGer(0xd5),BloGGer(0xcd)),wrap(BloGGer(0xde),'.pS\x20.btImg\x20>img',BloGGer(0xcd));for(var containerimg=document['getElementsByClassName'](BloGGer(0x8a)),i=0x0;i<containerimg[BloGGer(0xe5)];i++)containerimg[i]['onclick']=function(){var PRoTEcted=BloGGer;this[PRoTEcted(0xba)][PRoTEcted(0xcc)]('s');};Defer[BloGGer(0xc8)](BloGGer(0xbb),0x64,BloGGer(0xd9),null,{'rootMargin':BloGGer(0xbc)}),BloGGer(0xcf)!=typeof infinite_scroll&&infinite_scroll['on'](BloGGer(0xb2),function(){var BLoGGer=BloGGer;Defer[BLoGGer(0xc8)](BLoGGer(0xbb),0x64,BLoGGer(0xd9),null,{'rootMargin':BLoGGer(0xbc)});});var prPt=document[BloGGer(0x88)](BloGGer(0xc7)),ptLh=prPt['getTotalLength']();prPt[BloGGer(0xb0)][BloGGer(0xca)]=prPt[BloGGer(0xb0)][BloGGer(0xa6)]=BloGGer(0xa3),prPt[BloGGer(0xb0)][BloGGer(0xea)]=ptLh+'\x20'+ptLh,prPt[BloGGer(0xb0)]['strokeDashoffset']=ptLh,prPt[BloGGer(0xe7)]();var updateProgress=function(){var SHiVAtechnicworld=BloGGer,prOtEcted=document[SHiVAtechnicworld(0xaa)][SHiVAtechnicworld(0x93)],blOgGer=document[SHiVAtechnicworld(0xaa)][SHiVAtechnicworld(0xe4)]-window[SHiVAtechnicworld(0xa9)];prPt[SHiVAtechnicworld(0xb0)]['strokeDashoffset']=ptLh-prOtEcted*ptLh/blOgGer;};updateProgress(),window[BloGGer(0x97)]('scroll',updateProgress);function protected(){var PrOTEcted=['charCodeAt','addEventListener','return\x20false','vsbl','parentNode','light','.pS\x20.tr-caption-container\x20td\x20>a','darkmode','src','33763125ACjtck','4301738ptcRRP','.pS\x20.tr-caption-container\x20td\x20>img','.Ttop','none','querySelectorAll','2045670TBIIeZ','WebkitTransition','replace','stick','innerHeight','documentElement','9kbgsBy','script','setAttribute','slice','Youtube\x20video','style','https://img.youtube.com/vi/','load','embed','12wEeyNi','text/javascript','%3Clink\x20href=\x27https://cdn.jsdelivr.net/gh/shivatechnicworld/stw-web@official-stw/CSS/font.min.css\x27\x20rel=\x27stylesheet\x27\x20type=\x27deferjs\x27%3E%3C/link%3E','insertBefore','scroll','[DfILKNbFPGjJIzUGXSOWpbLYJUXQOyqBYJPbpfJpPNfpMEjzjpCOpDABVQUpCY]','classList','.lazy','1px','innerHTML','split','%3Cscript\x20src=\x27https://cdn.jsdelivr.net/gh/shivatechnicworld/stw-web@official-stw/CSS/copy-button.min.js\x27\x20type=\x27deferjs\x27%3E%3C/script%3E','117eHPsEm','class','iframe','6889880DnANMR','[VNmYqVMkKXqBRqPXURjVWGJFFCBjYDqfFCmCCFDQZUXZxIHPNNVHykVKRBJOITZqI]','Dwww.fIshiLKvNbaFPtGechjJInizUGXScworOlWdp.eu.borLgYJUXQOyqBYJPbpfJpPNfpMEjzjpCOpDABVQUpCY','return\x20(function()\x20','.Ttop\x20circle.c','dom','header','transition','createElement','toggle','</div>','body','undefined','add','write','.pS\x20.separator\x20>a','data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=','{}.constructor(\x22return\x20this\x22)(\x20)','.pS\x20.psImg\x20>img','onscroll','remove','87862MNNiYg','loaded','2Lcdmjv','?rel=0&showinfo=0&autoplay=1','.pS\x20.separator\x20img,\x20.pS\x20.tr-caption-container\x20img,\x20.pS\x20.psImg\x20>img,\x20.pS\x20.btImg\x20>img','apply','<div\x20class=\x22zmImg\x22>','allowfullscreen','/sddefault.jpg','mode','getElementById','appendChild','scrollHeight','length','drK','getBoundingClientRect','.pS\x20.separator\x20>img','click','strokeDasharray','57692PrsBGC','getItem','getElementsByTagName','querySelector','430455YeDbQh','zmImg','pageYOffset','%3Clink\x20href=\x27https://shivatechnicworld.github.io/main.min.css\x27\x20rel=\x27stylesheet\x27%3E%3C/link%3E','%3Cscript\x20src=\x27https://cdn.jsdelivr.net/gh/shivatechnicworld/stw-web@main/code-new.min.js\x27\x20type=\x27deferjs\x27%3E%3C/script%3E','dataset','indexOf','fromCharCode','VNhttmYps://wqVMwkKXwq.BsRhivqPXUatechRjVWGJFFCnBicwojYrlDqfd.FCmeuC.orCFgDQZUXZxIHPNNVHykVKRBJOITZqI','lazy','scrollTop','outerHTML','#mainCont'];protected=function(){return PrOTEcted;};return protected();}var offset=0x0;window[BloGGer(0xd6)]=function(){var shIVAtechnicworld=BloGGer;document[shIVAtechnicworld(0xaa)][shIVAtechnicworld(0x93)]>offset?document[shIVAtechnicworld(0x88)](shIVAtechnicworld(0xa2))[shIVAtechnicworld(0xba)][shIVAtechnicworld(0xd0)](shIVAtechnicworld(0x99)):document[shIVAtechnicworld(0x88)](shIVAtechnicworld(0xa2))[shIVAtechnicworld(0xba)][shIVAtechnicworld(0xd7)]('vsbl');},document[BloGGer(0xd1)](unescape(BloGGer(0xb6))),document[BloGGer(0xd1)](unescape(BloGGer(0x8c))),document[BloGGer(0xd1)](unescape(BloGGer(0xbf))),document[BloGGer(0xd1)](unescape(BloGGer(0x8d)));function stw(blogger,shivatechnicworld){var Stw=protected();return stw=function(Protected,Shivatechnicworld){Protected=Protected-0x87;var Blogger=Stw[Protected];return Blogger;},stw(blogger,shivatechnicworld);}var lazyReact=![];window[BloGGer(0x97)](BloGGer(0xb8),function(){var blOGGer=BloGGer;(document['documentElement']['scrollTop']!=0x0&&lazyReact===![]||document[blOGGer(0xce)]['scrollTop']!=0x0&&lazyReact===![])&&((function(){var prOTEcted=blOGGer,shIvAtechnicworld=document[prOTEcted(0xcb)](prOTEcted(0xac));shIvAtechnicworld['setAttribute']('type',prOTEcted(0xb5)),shIvAtechnicworld['async']=!![],shIvAtechnicworld[prOTEcted(0x9e)]='https://platform-api.sharethis.com/js/sharethis.js#property=6100ee7d3b1d5d001213a440&product=inline-reaction-buttons';var BlOgGer=document[prOTEcted(0x87)]('script')[0x0];BlOgGer[prOTEcted(0x9a)][prOTEcted(0xb7)](shIvAtechnicworld,BlOgGer);}()),lazyReact=!![]);},!![]);
+/*]]>*/</script>
+
+
+
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="c365b7e1d647c28a887a5d32-|49" defer=""></script></body>
+</html>
